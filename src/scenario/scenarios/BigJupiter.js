@@ -69,7 +69,7 @@ export default {
 			traceRelativeTo: 'universe',
 		},
 	},
-	secondsPerTick: { min: 3600, max: 3600 * 15, initial: 3600 * 5 },
+	secondsPerTick: { min: 3600 * 5, max: 3600 * 60000, initial: 3600 * 10 },
 	calculaionsPerTick: 100,
 	usePhysics: true,
 	useBarycenter: false,

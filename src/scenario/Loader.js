@@ -9,6 +9,7 @@ import jupiterMoon from './scenarios/JupiterMoon';
 import nearEarthObject from './scenarios/NearEarthObject';
 import bigJupiter from './scenarios/BigJupiter';
 import moonSOI from './scenarios/MoonSOI';
+import test from './scenarios/Test';
 
 const all = [
 	solarSystem,
@@ -21,6 +22,7 @@ const all = [
 	nearEarthObject,
 	bigJupiter,
 	moonSOI,
+	test,
 ];
 
 export function buildScenario(scenario) {
